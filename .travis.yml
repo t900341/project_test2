@@ -21,11 +21,11 @@ script:
 deploy:
   provider: elasticbeanstalks
   region: "ap-northeast-2"
-  app: "final-test"
-  env: "Finaltest-env"
+  app: "app"
+  env: "app-prod"
   bucket_name: elasticbeanstalk-ap-northeast-2-200476763859
   skip_cleanup: true
-  bucket_path: "final-test"
+  bucket_path: "app"
   on:
     branch: master
   
