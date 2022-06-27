@@ -8,7 +8,7 @@
       <!--Home-->
       <section id="home">
         <div class="container">
-          <h5>With AWS</h5>
+          <h5>장원석 솔로</h5>
           <h1><span>More Faster</span> High Availability</h1>
           <p>Now all you have to do is fast your fingers</p>
           <a href="shop.php"><button class="buy-btn">Buy Ticket Now</button></a> 
