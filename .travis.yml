@@ -12,11 +12,11 @@ services:
 
 
 script:
-  - docker build -t t900341/ftest-frontend1 ./
+  - docker build -t t900341/ftest-frontend2 ./
 
   - echo "$DOCKER_HUB_PASSWORD" | docker login -u "$DOCKER_HUB_ID" --password-stdin
 
-  - docker push t900341/ftest-frontend1
+  - docker push t900341/ftest-frontend2
 
 #deploy:
 #  provider: elasticbeanstalks
