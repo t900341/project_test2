@@ -1,3 +1,6 @@
+
+
+
 <?php include('layouts/header.php'); ?>
 
 
@@ -8,10 +11,10 @@
 include('server/connection.php');
 
 
-if(!isset($_SESSION['logged_in'])){
-  header('location: login.php');
-  exit;
-}
+#if(!isset($_SESSION['logged_in'])){
+#  header('location: login.php');
+#  exit;
+#}
 
 
 if(isset($_GET['logout'])){
