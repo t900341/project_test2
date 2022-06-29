@@ -20,11 +20,11 @@ script:
 deploy:
   provider: elasticbeanstalks
   region: "ap-northeast-2"
-  app: "final-test"                    #앱 이름
-  env: "Finaltest-env"               #EB 이름
+  app: "app"                    #앱 이름
+  env: "app-prod"               #EB 이름
   bucket_name: elasticbeanstalk-ap-northeast-2-200476763859     #S3 버킷 이름
   skip_cleanup: true
-  bucket_path: "final-test"            #앱이름
+  bucket_path: "app"            #앱이름
   on:
     branch: master
   
